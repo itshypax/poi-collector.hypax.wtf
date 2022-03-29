@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Embeds -->
+    <meta property="og:site_name" content="hypax.wtf">
+    <meta property="og:url" content="https://poi-collector.hypax.wtf/">
+    <meta property="og:title" content="POI-Collector by mtz93">
+    <meta property="og:image" content="https://poi-collector.hypax.wtf/demo.jpg">
+    <!---->
+    <title>POI-Collector by mtz93</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <!-- Font Awesome Script Kit -->
+    <script src="https://kit.fontawesome.com/16b88be2df.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            transition: .2s ease;
+        }
+
+        :root {
+            --main-col: #35cdce;
+            --main-col-darken: #278b8d;
+            --bg-col: #22252b;
+            --text-col: #edf1f7;
+            --text-col-shade: #3b3e44;
+        }
+
+        body {
+            background-color: var(--bg-col);
+            color: var(--text-col);
+            font-family: 'Inter', sans-serif;
+        }
+
+        #footer {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            color: var(--text-col-shade);
+        }
+
+        #footer>p>a {
+            color: var(--text-col-shade);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #footer>p>a:hover {
+            color: var(--main-col);
+            text-decoration: underline;
+        }
+
+        #footer>p>a.egged {
+            font-weight: normal;
+        }
+
+        #footer>p>a.egged:hover {
+            color: var(--text-col-shade);
+            text-decoration: none;
+        }
+
+        button {
+            background-color: var(--main-col);
+            border: none;
+            border-bottom: 2px solid var(--main-col-darken);
+            padding: 8px 16px;
+            box-shadow: 0px 0px 5px 0px var(--main-col-darken);
+            color: #fff;
+            font-size: 30px;
+        }
+
+        a,
+        a:visited {
+            color: rgb(0, 102, 204);
+        }
+
+        button:hover {
+            background-color: var(--main-col-darken);
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        .centered {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            box-shadow: 0px 0px 5px 0px #000;
+        }
+
+        .centered-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            border-spacing: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;"><strong>POI-Collector</strong> by mtz93</h1>
+    <br />
+    <img src="https://poi-collector.hypax.wtf/demo.jpg" alt="POI-Collector" height="250px" width="auto"
+        class="centered-img">
+    <br />
+    <table class="centered">
+        <tr>
+            <td>
+                <p><strong>Foren-Beitrag:</strong></p>
+            </td>
+            <td>
+                <p><a
+                        href="https://www.sim-dispatcher.com/forums/topic/1000-wieder-online-poi-collector-by-mtz93-einfachere-sammlung-von-pois-f%C3%BCr-deine-leitstelle/"><i
+                            class="fa-solid fa-up-right-from-square" target="_blank"></i> Link</a></p>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Download:</strong></p>
+            </td>
+            <td>
+                <p><a title="Setup-Datei herunterladen" href="POI-Collector.application" target="_blank"><button><i
+                                class="fa-solid fa-arrow-down-to-bracket"></i></button></a></p>
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    <div id="footer">
+        <p>Hosted by hypax.wtf | <a href="https://hypax.wtf/legal.html">Impressum</a> | <a href="meme.jpg"
+                class="egged"><i class="fa-solid fa-light-emergency-on fa-beat-fade"></i></a></p>
+    </div>
+</body>
+
+</html>
